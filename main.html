@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dominic Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/jpg" href="profile.2.jpg">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Doms <span>PORTFOLIO</span></div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <div class="home-content">
+        <h1>Hi, I'm <span class="highlight">Dominic</span></h1>
+        <h3>This is My Simple Website</h3>
+
+        <p>
+            I create simple, responsive and user-friendly websites
+            with clean design and smooth user experience.
+        </p>
+
+        <a href="#about" class="btn btn-outline">About Me</a>
+    </div>
+
+    <div class="image-circle">
+        <img src="Profile.jpg" alt="Dominic Profile Picture">
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">My <span>Projects</span></h2>
+
+    <div class="lab-buttons">
+        <button onclick="showLab('lab1')">Laboratory 1</button>
+        <button onclick="showLab('lab2')">Laboratory 2</button>
+        <button onclick="showLab('lab3')">Laboratory 3</button>
+    </div>
+
+    <div id="lab1" class="lab-gallery">
+        <img src="1.PNG">
+        <img src="2.PNG">
+    </div>
+
+    <div id="lab2" class="lab-gallery">
+        <img src="1.1.PNG">
+        <img src="1.2.PNG">
+        <img src="1.3.PNG">
+        <img src="1.4.PNG">
+        <img src="1.5.PNG">
+    </div>
+
+    <div id="lab3" class="lab-gallery">
+        <img src="2.1.PNG">
+        <img src="2.2.PNG">
+        <img src="2.3.PNG">
+        <img src="2.4.PNG">
+        <img src="2.5.PNG">
+        <img src="2.6.PNG">
+        <img src="2.7.PNG">
+        <img src="2.8.PNG">
+        <img src="2.9.PNG">
+        <img src="3.1.PNG">
+        <img src="3.2.PNG">
+        <img src="3.3.PNG">
+        <img src="3.4.PNG">
+        <img src="3.5.PNG">
+    </div>
+</section>
+
+<section id="about">
+    <div class="image-circle">
+        <img src="Profile.jpg" alt="Dominic Profile Picture">
+    </div>
+
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+            I'm Dominic Pino Uyamot, 21 years old from Bayugan City,
+            Agusan Del Sur, and I'm a 2nd year college student under the degree of
+            Bachelor of Science in Computer Science at 
+            North Eastern Mindanao State University - Lianga Campus.
+        </p>
+        <a href="#projects" class="project-btn">My Project</a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <div class="contact-info">
+
+        <div class="info-box">
+            <h3>Phone Number</h3>
+            <p>0963 489 5592</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Email</h3>
+            <p>dominicuyamotpino@gmail.com</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Location</h3>
+            <p>Bayugan City, Agusan Del Sur</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Status</h3>
+            <p>College Student</p>
+        </div>
+
+    </div>
+
+<form action="mailto:dominicuyamotpino@gmail.com" method="post" enctype="text/plain">
+
+    <div class="contact-container">
+
+        <div class="contact-left">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="text" name="Phone" placeholder="Phone Number">
+            <input type="text" name="Subject" placeholder="Subject">
+        </div>
+
+        <div class="contact-right">
+            <textarea name="Message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="send-btn">Send Message</button>
+        </div>
+
+    </div>
+
+</form>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
